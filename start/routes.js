@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +16,5 @@
 const Route = use('Route')
 
 Route.on('/').render('home')
+
+Route.get('/posts', 'PostController.index')
